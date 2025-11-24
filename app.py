@@ -153,7 +153,7 @@ st.markdown(
 )
 
 # ------------ LOAD DATA ------------
-file_path = r"/Users/davidlerma/Desktop/testing streamlit/sellers.xlsx"
+file_path = r"sellers.xlsx"
 df_raw = pd.read_excel(file_path)
 df = df_raw.rename(columns=lambda x: x.strip())
 
